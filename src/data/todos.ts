@@ -4,7 +4,7 @@ export const dummyData: Todo[] = [
     {
         id: 1,
         title: "Like this video.",
-        completed: false,
+        completed: true,
     },
     {
         id: 2,

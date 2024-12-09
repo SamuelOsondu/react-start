@@ -1,3 +1,4 @@
+import TodoItem from "./components/TodoItem"
 import { dummyData } from "./data/todos"
 
 function App() {
@@ -10,9 +11,7 @@ function App() {
       <div>
         <div>
           {dummyData.map(todo => (
-            <p key={todo.id} className="text-lg">
-              {todo.title}
-            </p>
+            <TodoItem todo={todo}/>
           ))}
         </div>
       </div>
